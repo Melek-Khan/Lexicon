@@ -1,0 +1,36 @@
+<input type="text" id="num1" /> +
+<input type="text" id="num2" /> =
+<input type="text" id="sum" readonly="readonly" />
+<input type="button" value="Calc" onclick="calc()" />
+<script>
+ function calc() { 
+  
+  var num1 = document.getElementById('num1').value;
+  var num2 = document.getElementById('num2').value;
+
+  
+  var sum = parseInt(num1) + parseInt(num2);
+
+  
+  document.getElementById('sum').value = sum;
+ }
+</script>
+
+
+<a href="#" id="more" onclick= "showText()">Read more …</a>
+<span id="text" style= "display:none">Welcome to JavaScript and DOM.</span>
+<script>
+ function showText() {
+  
+  var  text = document.getElementById("text");
+
+  
+  if (text.style.display === "none") {
+    text.style.display = "block";
+
+  
+    document.getElementById("more").style.display = "none";
+  }
+
+ }
+</script>

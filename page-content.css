@@ -1,0 +1,36 @@
+/* Reset CSS for the body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+}
+
+/* Style the <section> container */
+section {
+  margin-left: 20px;
+}
+
+/* Style the <article> tag for content */
+article {
+  /* Add any additional styles for the article here */
+}
+
+/* Style the <header> tag within the article */
+article header {
+  /* Add any additional styles for the header here */
+}
+
+/* Style the <h1> tag within the header */
+article header h1 {
+  font-size: 28px;
+}
+
+/* Style the <p> tag within the header */
+article header p {
+  font-style: italic;
+}
+
+/* Style paragraphs within the article */
+article p {
+  font-size: 24px;
+}

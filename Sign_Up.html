@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+    }
+
+    nav li {
+      margin: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .jumbotron {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the element horizontally */
+  background-color: #E9ECEF;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+    h1 {
+      color: #444;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .login-form {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #E9ECEF;
+      color: black;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    .remember-me {
+      margin-top: 10px;
+    }
+
+    .forgot-password {
+      text-align: right;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Welcome</a></li>
+      <li><a href="#">Landing Page</a></li>
+    </ul>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Log In</h1>
+      <p>Enter your email and password below to login to Coffe lover</p>
+    </div>
+  </div>
+  <div class="login-form">
+    <h6>Email</h6>
+      <input type="text" placeholder="Email" >
+      <h6>Password</h6>
+      <input type="password" placeholder="Password">
+
+      <div class="remember-me">
+        <input type="checkbox" name="remember_me" checked> Keep me logged in
+      </div>
+
+      <button type="submit">Submit</button>
+
+  </div>
+</body>
+</html>
